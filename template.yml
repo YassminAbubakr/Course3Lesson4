@@ -7,7 +7,6 @@ Resources:
     Properties:
       SecurityGroups:
         - !Ref InstanceSecurityGroup
-      KeyName: Lesson4Keypair
       ImageId: 'ami-068663a3c619dd892'
   InstanceSecurityGroup:
     Type: 'AWS::EC2::SecurityGroup'
